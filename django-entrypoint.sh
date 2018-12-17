@@ -1,4 +1,4 @@
-until cd src
+until cd django
 do
     echo "Waiting for django volume..."
     sleep 2
