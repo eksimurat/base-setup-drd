@@ -18,13 +18,13 @@ services:
   frontend:
     build: 
         context: .
-        dockerfile: ./vue/Dockerfile
-    #command: echo "ready"
+        dockerfile: ./frontend/Dockerfile
+    #command: npm start
     volumes:
       - .:/frontend
     ports:
       - 3000:3000
-    entrypoint: ["bash","vue-entrypoint.sh"]
+    entrypoint: ["bash","react-entrypoint.sh"]
     depends_on:
       - db
       - backend
