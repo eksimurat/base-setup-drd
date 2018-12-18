@@ -1,6 +1,6 @@
 # SETUP OF / REACT - DJANGO - DOCKER \
 
-Base setup of a dockerized web app using Django REST APIs and ReactJS
+Base setup of a dockerized web app using Django REST APIs and ReactJS.
 Both Django and React containers support hot reloading. Just save your file and it will reflect the change.
 
 ## Soon to be implemented
