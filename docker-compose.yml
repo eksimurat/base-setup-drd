@@ -17,11 +17,12 @@ services:
       - db
   frontend:
     build: 
-        context: .
-        dockerfile: ./frontend/Dockerfile
+        context: ./frontend
+        dockerfile: Dockerfile
     #command: npm start
     volumes:
-      - .:/frontend
+      - '.:/frontend'
+      - './frontend/node_modules'
     ports:
       - 3000:3000
     entrypoint: ["bash","react-entrypoint.sh"]

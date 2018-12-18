@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/murateksi/.pyenv/versions/base-setup-drd/bin/python"
+    "python.pythonPath": "C:\\Users\\Murik\\Anaconda3\\python.exe",
+    "python.linting.pylintEnabled": true
 }
