@@ -3,7 +3,7 @@ import { FETCH_USER } from "../actions/Types";
 export default (state = {}, action) => {
   switch (action.type) {
     case FETCH_USER:
-      return [...state, ...action.user];
+      return action.payload;
     default:
       return state;
   }

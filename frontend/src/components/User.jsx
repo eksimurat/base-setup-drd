@@ -9,13 +9,9 @@ class User extends Component {
     }
 
     testApi(){
-        console.log("outside")
         const { data } = this.props;
-        console.log(data)
-        console.log(_)
         _.map(data, (value, key) => {
-        console.log("test")
-          console.log(value)
+        console.log(value)
         });
     }
 
