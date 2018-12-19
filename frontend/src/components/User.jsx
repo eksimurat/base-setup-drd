@@ -10,6 +10,7 @@ class User extends Component {
 
     testApi(){
         const { data } = this.props;
+        
         _.map(data, (value, key) => {
         console.log(value)
         });
